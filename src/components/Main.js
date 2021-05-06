@@ -14,7 +14,7 @@ function Main() {
                     <FontAwesomeIcon icon={faSearch}/>
                 </div>
                 <div className="search-input">
-                    <input type="text" placeholder='search for videos'/>
+                    <input type="text" autofocus placeholder='search for videos'/>
                 </div>
             </div>  
         </div>
@@ -22,7 +22,11 @@ function Main() {
             <ReactPlayer  width='100%' height='210px' url='https://www.youtube.com/watch?v=xmlqZ_foSEo'/>
         </div>
         <div className="main-content">
+            <h2>Latest videos</h2>
             <Cards />
+            <div className="main-content-btn">
+                <button>Show More</button>
+            </div>
         </div>
         </>
     )
