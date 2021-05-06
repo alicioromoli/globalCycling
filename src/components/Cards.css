@@ -1,0 +1,44 @@
+.main__wrapper__cards {
+    padding: 12px;
+}
+
+.main__wrapper__card {
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 3px 5px rgba(155, 153, 153, 0.11);
+    margin-bottom: 32px;
+}
+
+.main__wrapper__card:hover{
+    border-radius: 8px;
+    background-color: #fff;
+    cursor: pointer;
+    filter: brightness(.85);
+    transition: all .3s ease-in-out;
+}
+
+.card__img {
+    overflow: hidden;
+    border-radius: 8px 8px 0 0;
+}
+
+.card__img img{
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+    transition: all .3s ease;
+}
+
+.card__img img:hover {
+    transform: scale(1.1);
+    transition: all .9s ease;
+}
+
+.card__date {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 16px 0 16px 16px;
+}
+
+.card__title {
+    padding: 16px;
+}
